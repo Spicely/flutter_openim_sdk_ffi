@@ -1,6 +1,6 @@
 name: flutter_openim_sdk_ffi
 description: openim_sdk in flutter by ffi
-version: 3.8.3-alpha.25
+version: 3.8.3-alpha.26
 homepage: https://github.com/Spicely/flutter_openim_sdk_ffi
 
 environment:

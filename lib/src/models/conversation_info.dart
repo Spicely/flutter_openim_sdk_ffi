@@ -94,7 +94,7 @@ class ConversationInfo {
     recvMsgOpt = json['recvMsgOpt'];
     unreadCount = json['unreadCount'];
     try {
-      if (json['latestMsg'] is String) {
+      if (json['latestMsg'] is String && json['latestMsg'].isNotEmpty) {
         latestMsg = Message.fromJson(jsonDecode(json['latestMsg']));
       } else if (json['latestMsg'] is Map) {
         latestMsg = Message.fromJson(json['latestMsg']);
