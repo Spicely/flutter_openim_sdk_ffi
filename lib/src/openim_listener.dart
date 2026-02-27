@@ -94,8 +94,11 @@ mixin OpenIMListener {
   /// 接收到新消息时会收到此回调，回调中只会携带一条消息。
   void onRecvNewMessage(Message msg) {}
 
-  ///当应用在后台运行，接收到新消息时，会收到该回调，回调中只会携带一条消息。
+  /// 当应用在后台运行，接收到新消息时，会收到该回调，回调中只会携带一条消息。
   void onRecvOfflineNewMessage(Message msg) {}
+
+  /// 接收到仅在线新消息时会收到此回调，回调中只会携带一条消息。
+  void onRecvOnlineOnlyMessage(Message msg) {}
 
   /// 当前登录用户个人信息改变时会收到此回调。
   void onSelfInfoUpdated(UserInfo info) {}

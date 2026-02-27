@@ -15,6 +15,7 @@ void _listenToClass(_PortModel data, _IsolateTaskData<_InitSdkParams?> task) {
       break;
     case ListenerType.onRecvNewMessage:
     case ListenerType.onRecvOfflineNewMessage:
+    case ListenerType.onRecvOnlineOnlyMessage:
       data.data = IMUtils.toObj(data.data, (map) => Message.fromJson(map));
       task.sendPort.send(data);
       break;
