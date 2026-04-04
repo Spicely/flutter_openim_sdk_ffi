@@ -1,4 +1,10 @@
-part of '../flutter_openim_sdk_ffi.dart';
+import 'models/conversation_info.dart';
+import 'models/group_info.dart';
+import 'models/input_status_changed_data.dart';
+import 'models/message.dart';
+import 'models/user_info.dart';
+
+
 
 /*
  * Summary: 文件描述

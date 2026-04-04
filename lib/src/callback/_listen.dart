@@ -1,4 +1,4 @@
-part of '../../flutter_openim_sdk_ffi.dart';
+part of '../../flutter_openim_sdk_ffi_native.dart';
 
 void _listen(_PortModel channel) {
   switch (channel.method) {

@@ -1,4 +1,4 @@
-part of '../flutter_openim_sdk_ffi.dart';
+
 /*
  * Summary: 错误信息
  * Created Date: 2023-07-02 20:49:10

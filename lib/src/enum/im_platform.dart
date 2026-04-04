@@ -1,4 +1,4 @@
-part of '../../flutter_openim_sdk_ffi.dart';
+
 
 /// 当前flutter平台仅支持Android/ios
 enum IMPlatform {

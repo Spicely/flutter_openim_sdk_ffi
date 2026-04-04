@@ -1,4 +1,4 @@
-part of '../../flutter_openim_sdk_ffi.dart';
+part of '../../flutter_openim_sdk_ffi_native.dart';
 
 class FriendshipManager {
   /// 发起好友申请，请求添加对方为好友

@@ -1,4 +1,7 @@
-part of '../../flutter_openim_sdk_ffi.dart';
+import 'user_info.dart';
+import 'message.dart';
+
+
 
 class SearchResult {
   /// Total number of messages obtained

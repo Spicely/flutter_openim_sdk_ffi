@@ -1,6 +1,6 @@
 // ignore_for_file: file_names
 
-part of '../../flutter_openim_sdk_ffi.dart';
+part of '../../flutter_openim_sdk_ffi_native.dart';
 
 void _method(_PortModel msg, FlutterOpenimSdkFfiBindings bindings) {
   switch (msg.method) {

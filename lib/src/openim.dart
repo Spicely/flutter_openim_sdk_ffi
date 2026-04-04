@@ -1,4 +1,4 @@
-part of '../flutter_openim_sdk_ffi.dart';
+part of '../flutter_openim_sdk_ffi_native.dart';
 
 const String _libName = 'flutter_openim_sdk_ffi';
 

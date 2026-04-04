@@ -1,4 +1,4 @@
-part of '../../flutter_openim_sdk_ffi.dart';
+part of '../../flutter_openim_sdk_ffi_native.dart';
 
 void _listenToClass(_PortModel data, _IsolateTaskData<_InitSdkParams?> task) {
   switch (data.method) {

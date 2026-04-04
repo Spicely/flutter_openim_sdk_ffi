@@ -1,4 +1,5 @@
-part of '../../flutter_openim_sdk_ffi.dart';
+import '../enum/conversation_type.dart';
+import '../enum/group_type.dart';
 
 /// Group Information
 class GroupInfo {
