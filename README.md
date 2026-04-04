@@ -1,10 +1,10 @@
 # flutter_openim_sdk_ffi
 
-支持 windows、ios、android、macos、linux 对应 openim v3.8.3
+支持 windows、ios、android、macos、linux、web 对应 openim v3.8.3
 
 ## 警告！！
 
-当前为测试版本可能面对不兼容修改
+当前web端为测试版本可能有非常多的Bug
 受包大小限制 macos 和 ios 只提供 arm64 所以只能跑真机
 
 ```
@@ -19,6 +19,12 @@
     wsAddr: 'wss://web.muka.site/msg_gateway',
   );
 ```
+
+## Donate
+
+Buy the writer a cup of coffee。
+
+<img src="https://github.com/Spicely/image_source/blob/main/1775314860825.jpg" height="300"> <img src="https://github.com/Spicely/image_source/blob/main/mm_facetoface_collect_qrcode_1775314908166.png" height="300">
 
 # Listener
 

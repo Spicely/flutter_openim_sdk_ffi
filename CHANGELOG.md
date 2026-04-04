@@ -1,3 +1,10 @@
+## 3.8.3-alpha.28
+
+- 支持 Web (WASM) 平台，包括初始化、收发消息全流程的闭环处理
+- 修复 Web 平台下数据层 JSON 解析异常和底层数组类型转换报错问题
+- 修复 Web 平台缺少 \`OnRecvNewMessages\` 及 \`OnRecvOfflineNewMessages\` 事件导致接收消息丢失的问题
+- 补充赞赏通道
+
 ## 3.8.3-alpha.25
 
 - 修复#50
