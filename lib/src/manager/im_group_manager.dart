@@ -1,4 +1,4 @@
-part of '../../flutter_openim_sdk_ffi.dart';
+part of '../../flutter_openim_sdk_ffi_native.dart';
 
 class GroupManager {
   /// 邀请进组，直接进组无需同意。

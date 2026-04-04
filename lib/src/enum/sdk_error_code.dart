@@ -1,4 +1,4 @@
-part of '../../flutter_openim_sdk_ffi.dart';
+
 
 /// 消息发送失败
 class MessageFailedCode {

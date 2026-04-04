@@ -1,4 +1,5 @@
-part of '../../flutter_openim_sdk_ffi.dart';
+import 'group_info.dart';
+import 'message.dart';
 
 /// OA notification
 class OANotification {

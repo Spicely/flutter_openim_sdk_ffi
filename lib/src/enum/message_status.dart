@@ -1,4 +1,4 @@
-part of '../../flutter_openim_sdk_ffi.dart';
+
 
 /// Message Send Status
 enum MessageStatus {

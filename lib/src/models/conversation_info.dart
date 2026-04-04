@@ -1,4 +1,9 @@
-part of '../../flutter_openim_sdk_ffi.dart';
+import 'dart:convert';
+import 'package:flutter/foundation.dart';
+import 'message.dart';
+import '../enum/conversation_type.dart';
+
+
 
 class ConversationInfo {
   // Unique identifier for the conversation
@@ -94,7 +99,7 @@ class ConversationInfo {
     recvMsgOpt = json['recvMsgOpt'];
     unreadCount = json['unreadCount'];
     try {
-      if (json['latestMsg'] is String) {
+      if (json['latestMsg'] is String && json['latestMsg'].isNotEmpty) {
         latestMsg = Message.fromJson(jsonDecode(json['latestMsg']));
       } else if (json['latestMsg'] is Map) {
         latestMsg = Message.fromJson(json['latestMsg']);

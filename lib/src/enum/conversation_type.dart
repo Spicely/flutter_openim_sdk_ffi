@@ -1,4 +1,4 @@
-part of '../../flutter_openim_sdk_ffi.dart';
+
 
 /// 会话类型
 enum ConversationType {

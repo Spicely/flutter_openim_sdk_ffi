@@ -1,4 +1,4 @@
-part of '../../flutter_openim_sdk_ffi.dart';
+
 
 /// callback类型
 class ListenerType {

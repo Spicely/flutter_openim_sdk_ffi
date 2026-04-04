@@ -1,4 +1,6 @@
-part of '../../flutter_openim_sdk_ffi.dart';
+import '../enum/conversation_type.dart';
+
+
 
 class Message {
   /// Message ID, a unique identifier.

@@ -1,4 +1,4 @@
-part of '../../flutter_openim_sdk_ffi.dart';
+part of '../../flutter_openim_sdk_ffi_native.dart';
 
 void _listen(_PortModel channel) {
   switch (channel.method) {
@@ -109,7 +109,9 @@ void _listen(_PortModel channel) {
     case ListenerType.onRecvOfflineNewMessage:
       OpenIMManager._onEvent((listener) => listener.onRecvOfflineNewMessage(channel.data));
       break;
-
+    case ListenerType.onRecvOnlineOnlyMessage:
+      OpenIMManager._onEvent((listener) => listener.onRecvOnlineOnlyMessage(channel.data));
+      break;
     case ListenerType.onBlackAdded:
       OpenIMManager._onEvent((listener) => listener.onBlacklistAdded(channel.data));
       break;
